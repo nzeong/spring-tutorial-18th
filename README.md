@@ -3,7 +3,6 @@
 
 ![인텔리제이](https://github.com/CEOS-Developers/spring-tutorial-18th/assets/121355994/6e1c9bd9-ecca-4d96-aafc-4d50539f5c4e)
 
-
 ## ⭐ Spring의 POJO란 무엇인가?
 POJO는 Plain Old Java Object 의 약자로 getter, setter처럼 기본적인 기능만 가진 자바 객체를 의미한다.
 스프링은 POJO 방식을 기반으로 동작하는데, 이렇게 하면 좋은 점은 비지니스 로직과 사용되는 기술을 분리해서 사용할 수 있다는 점이다. <b>즉, 비지니스 로직을 담은 코드에서 기술적인 복잡함과 변경사항을 제거할 수 있는 것이다.</b>
@@ -263,5 +262,10 @@ class OwnerController {
 ```
 보통은 @어노테이션을 사용해서 기술을 사용한다.
 
+### 참고자료
+- https://sabarada.tistory.com/66
+- https://dev-coco.tistory.com/81
+- https://dev-coco.tistory.com/83
+- https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8
 ---
 확실히 스프링은 객체 지향 프로그래밍을 하기에 정말 좋은 프레임워크같다. 내가 느낀 스프링의 핵심은 분리인 것 같다. 공통 로직과 개별 로직의 간의 분리를 통해 유지보수나 수정을 쉽게 할 수 있고 공통 로직의 추상화를 통해 기술을 쉽게 이용할 수 있다. 원래 IoC/DI는 알았어도 AOP나 PSA에 대해서는 잘 몰랐는데 이번 기회에 확실하게 정리해볼 수 있어서 좋았다. 어째 공부를 하면 할수록 더 공부할 게 늘어나는 느낌이 든다. 파이팅 🤲
